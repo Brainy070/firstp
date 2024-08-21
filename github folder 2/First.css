@@ -1,0 +1,924 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-header{
+    background-color: rgb(17, 16, 16);
+    color: white;   
+}
+
+.nav-container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inline-nav{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+
+.top-nav-bar{
+    line-height: 70px;
+}
+
+.top-nav-bar h1{
+    font-size: 45px;
+    margin: 0 40px 0 0;
+
+}
+
+
+.srch{
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    background-color:white;
+}
+
+.srch >i{
+    font-size: 20px;
+    color:white;
+    background-color: black;
+    
+}
+.srch input{
+    flex: 1;
+    height: 25px;
+    width: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.category{
+    margin: auto;
+    border:slateblue;
+    border-radius: 50px;
+    background-color: rgb(176, 169, 169);
+}
+
+
+
+
+
+/* Icon styles */
+.top-nav-bar .icon{
+    position: relative;
+    line-height: 70px;
+    margin-left: 30px;
+   
+}
+
+.top-nav-bar .icon a{
+    color: rgb(210, 199, 199);
+    text-decoration: none;
+    line-height: 70px;
+}
+
+
+.top-nav-bar .icon a span{
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.top-nav-bar .icon .material-icons{
+    font-size:36px; 
+    line-height: 70px;
+    color: whitesmoke;
+}
+.fa-user{
+    display: flex;
+    padding:  10px;
+    font-size:26px; 
+    line-height: 70px;
+    color: white;
+}
+.fa-cart-shopping{
+    display: flex;
+    font-size:25px; 
+    line-height: 70px;
+    color: white;
+}
+
+
+.bottom-nav-bar{
+    line-height: 70px;
+    margin: auto;
+
+}
+
+
+
+.bottom-nav-bar div ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-nav-bar div ul li{
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-nav-bar div ul li.discount{
+    color: rgb(222, 14, 49);
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+}
+
+.bottom-nav-bar div ul li a{
+    font-size: 16px;
+    color: rgb(216, 211, 211);
+    text-decoration: none;
+}
+
+.srch-container{
+    font-weight: 200;
+    border-radius: 50px;
+    width:400px;
+    height:40px;
+    padding-left: 50px;
+    border: none;   
+}
+
+
+/* Features and products and icons */
+.features{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 30px;
+}
+
+.features .text-advert h2{
+   /* margin-left: 50px;*/
+   padding-top: 40px;
+   padding-left: 20px;
+    font-size: 1.5rem;
+    display: block;
+}
+
+
+.features .features-container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.features .product{
+    width: 150px;
+    font-size: 12px;
+    margin-right: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.features .product .fa{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.features .product h3{
+    color: rgb(26, 26, 26);
+    font-weight: 700;
+}
+
+.features .product p{
+    color: rgb(53, 51, 51);
+    font-size: .7rem;
+}
+
+
+.background-img{
+    display: flex;
+    font-display: auto;
+    gap: 20px;
+    padding: 50px;
+    margin: 20px;
+    background-color:white;
+}
+
+.a-img-signR-div{
+    background-color:  rgb(249, 245, 245);
+    border-radius: 25px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    gap: 15px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.reg-text{
+    padding: 15px 21px;
+    background-color:black;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.sign-text{
+    border: 1px black solid;
+    font-size: 1.2rem;
+    padding: 13px 21px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.a-img1{
+    background-color:rgb(250, 224, 190);
+    border-radius: 20px;
+    width: 250px;
+    height: 470px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.a-img1 img {
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+   border: 10px solid #fff;
+
+}
+
+.a-img1 h1{
+    color: rgb(229, 63, 63);
+    padding: 10px 10px;
+}
+
+.a-img1 p{
+    padding: 10px 10px;
+}
+/*
+.c-img3 img{
+    
+    width: 200px;
+    height: 200px;
+}
+*/
+.b-img2{
+    background-color:  rgb(249, 245, 245);
+    width: 400px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.b-img2 h2{
+    color: rgb(229, 63, 63);
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.b-img2 p{
+    padding: 10px 10px;
+    padding-left: 30px;
+}
+
+
+
+.img2-first{
+    padding: 40px;
+    margin: 0 20px;
+ 
+}
+
+
+.img2-first img{
+    border-radius: 20px;
+    width: 230px;
+    height: 180px;
+}
+
+.img2-first span{
+    display: flex;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    color: red;
+}
+.img2-first span h6{
+    margin-top: 7px;
+}
+
+.img-backG1 span{
+    display: flex;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    color: red;
+}
+
+.img-backG1 h6{
+    margin-top: 7px;
+}
+
+.img-backG3 span{
+    display: flex;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    color: red;
+ 
+}
+
+.img-backG3 h6{
+    margin-top: 7px;
+  
+}
+
+
+.backG-img2{
+    background-color: #fff;
+    width: 85%;
+    height: 80%;
+    margin-left: 35px;
+    border-radius: 20px;
+
+}
+
+.backG-img3{
+    display: flex;
+   gap: 15px;
+   margin-left: 5px;
+   
+}
+
+.backG-img3 img{
+    border-radius: 20px;
+    height: 140px;
+    width: 150px;
+}
+
+
+.general-3-4{
+    display: block;
+    cursor: pointer;
+}
+
+.background-3{
+    background-color:rgb(233, 192, 137);
+    height: 270px;
+    width: 500px;
+    border-radius: 20px;
+
+}
+.background-3-all{
+    display: flex;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+.background-3 h2{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.background-3 span{
+    color: red;
+}
+
+.background-3 p{
+    padding-left: 20px;
+}
+
+
+.background-3-img1 span{
+    display: flex;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    color: red;
+} 
+.background-3-img1 h6{
+    margin-top: 7px;
+}
+.background-3-img2 span{
+    display: flex;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    color: red;
+ 
+}
+.background-3-img2 h6{
+    margin-top: 7px;
+}
+
+.background-3-img3 span{
+    display: flex;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    color: red;
+}
+
+.background-3-img3 h6{
+    margin-top: 7px;
+}
+
+.background-3 h1{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.background-3 h1 span{
+    color: rgb(229, 63, 63);
+}
+
+.background-3 p{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.background-3 img{
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+
+.background-4{
+    background-color:  rgb(249, 245, 245);
+    margin-top: 20px;
+    height: 300px;
+    border-radius: 20px;
+    width: auto;
+}
+
+.background-4 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.background-4 span{
+    color: rgb(229, 63, 63);
+}
+.background-4 p{
+    margin-left: 20px;
+}
+
+.background-4-all{
+    display: flex;
+ 
+}
+
+
+.background-4-all img{
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.bacground-4-img1 span{
+    display: flex;
+    padding-left: 30px;
+    letter-spacing: 1px;
+    color: red;
+}
+.bacground-4-img1 h6{
+    margin-top: 7px;
+}
+
+.background-4-img2 span{
+    display: flex;
+    padding-left: 30px;
+    letter-spacing: 1px;
+    color: red;
+}
+.background-4-img2 h6{
+    margin-top: 7px;
+}
+
+.background-4-img3 span{
+    display: flex;
+    padding-left: 30px;
+    letter-spacing: 1px;
+    color: red;
+}
+.background-4-img3 h6{
+    margin-top: 7px;
+}
+
+
+
+  .features-text h2{
+    margin-left: 60px;
+    font-size: 2.0rem;
+    padding: 10px;
+}
+
+
+.features-layout{
+    gap: 10px;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+
+.big-save-layout{
+    display: flex;
+    flex-direction: row;    
+}
+
+.big-save-item{
+    width: 230px;
+    border-radius: 25px;
+    border: solid 1px rgb(201, 194, 194);
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    cursor: pointer;
+}
+
+/* big-save-layout-img1 */
+.big-save-layout-img1{
+    margin:10px;
+    height: 330px;
+    padding: 0;
+    width: 230px;
+    border-radius: 25px;
+    border: solid 1px rgb(201, 194, 194);
+    position: relative;
+}
+.big-save-item span{
+    display: flex;
+
+}
+.big-save-item h4{
+    margin-top: auto;
+}
+.big-save-item h6{
+    margin-top:10px;
+}
+
+
+/* big-save-item .view-more-btn */
+
+.big-save-layout-img1 .shop-now-btn{
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 20px; 
+    width: 90%;
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.big-save-layout-img1 img{
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 230px;
+    border-radius: 25px;
+    border: solid 1px rgb(201, 194, 194);
+}
+
+.big-save-item img{
+    width: 100%;
+    border-radius: 20px; 
+    height: 200px;
+}
+
+.big-save-item .view-more-btn{
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 20px; 
+    width: 95%;
+    display: none;
+    background-color: rgb(14, 12, 12);
+    color: white;
+    border: none;
+    
+}
+
+  .big-save-item:hover .view-more-btn{
+    display: block;
+  }
+
+/* ======================================= */
+
+  /* image slide design */
+
+  .slide-container{
+    padding: 1.5rem;
+  }
+
+  
+ .img-slide{
+    position: relative;
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+ 
+  .all-imgslide{
+    display: flex;
+    aspect-ratio: 60 /15 ;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1rem 1.5rem -0.50rem wheat;
+    border-radius: 0.5rem;
+  }
+
+  .all-imgslide img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+  }
+
+  .slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+
+  .slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.25rem;
+    transition: opacity ease 200ms;
+  }
+
+
+
+
+
+/* =========================================== */
+
+
+/* Choice style start here */
+
+.choice-container{
+    gap: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    background-color:rgba(251, 165, 5, 0.168);
+
+}
+
+.choice-allimag{
+    display: flex;
+    flex-direction: row; 
+}
+
+.choice-images{
+    width: 230px;
+    border-radius: 25px;
+    border:none;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.choice-images img{
+    width: 100%;
+    border-radius: 20px; 
+    height: 200px;
+}
+
+.choice-images-special img{
+    margin:10px;
+    height: 330px;
+    padding: 0;
+    width: 230px;
+    border-radius: 25px;
+    border: solid 1px rgb(201, 194, 194);
+    position: relative;
+}
+
+.choice-images span{
+    display: flex;
+
+}
+.choice-images h4{
+    margin-top: auto;
+}
+.choice-images h6{
+    margin-top:10px;
+}
+
+
+.choice-images .preview-btn{
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 20px; 
+    width: 95%;
+    display: none;
+    background-color: rgb(14, 12, 12);
+    color: white;
+    border: none;
+    
+}
+
+.choice-images:hover .preview-btn{
+    display: block;
+}
+
+ .choice-text .better{
+    margin-left: 15px;
+    color: rgb(254, 106, 52);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.choice{
+    margin-left: 30px;
+    background-color: rgb(254, 106, 52) ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.choice-text{
+    margin-bottom: 10px;
+}
+
+
+.view-link{
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* more to love text begins here */
+
+.more{
+    padding: 0 100px;
+    font-size: 25px;
+}
+.text{
+    padding-top: 50px;
+    padding-left: 150px;
+
+}
+
+
+/* =========================================== */
+
+/*footer desing*/
+
+
+footer{
+    background-color: rgb(225, 223, 223);
+}
+ 
+.footer-context{
+    display: flex;
+    gap: 55px;
+    padding: 50px 100px;
+}
+
+.service{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(83, 80, 80);
+}
+
+.link{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(83, 80, 80);
+}
+
+.list{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(83, 80, 80);
+}
+
+
+/* footer second step styling  */
+
+
+
+.footer-second-step{
+    padding: 50px 100px;
+}
+
+.multi-text{
+    padding-left: 60%;
+
+}
+
+.Multi-Languege{
+    padding-left: 60%;
+}
+
+.Site{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(83, 80, 80);
+    cursor: pointer;
+}
+.comment{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(83, 80, 80);
+    cursor: pointer;
+}
+
+/* ===================================== */
+/* footer third design */
+.third-div{
+    padding: 0  100px;
+  
+}
+
+.by{
+    list-style-type: none;
+    color: rgb(83, 80, 80);
+    cursor: pointer;
+}
+
+.Ali-baba{
+    padding-left: 60%;
+}
+
+.ba-ba{
+    padding-left: 60%;
+    color: rgb(83, 80, 80);
+    cursor: pointer;
+}
+
+
+/* footer second stage */
+
+.footer-stage-2{
+    padding: 30px 100px;
+    background-color: black;
+    color: #fff;
+    font-weight: 10;
+}
+
+
+
+
+
+
+/*
+
+@media(min-width:768px){
+    .nav-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-container{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 50px;
+
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    body {
+      background-color: lightblue;
+    }
+  
+  }
+
+/*
